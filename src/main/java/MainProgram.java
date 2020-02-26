@@ -13,8 +13,8 @@ public class MainProgram {
         GenericsClass<Integer> age = new GenericsClass<>();
         age.setType(27);
 
-        System.out.println(name.getType());
-        System.out.println(age.getType());
+        System.out.println("name: " + name.getType());
+        System.out.println("age: " + age.getType());
 
 
     }
